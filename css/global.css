@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+}
+
+h1 {
+  font-family: 'ubuntu';
+  margin-left: 50px;
+}
+
+h3 {
+  margin-top: 10spx;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h5 {
+  font-weight: lighter;
+}
+
+body {
+  font-family: 'open sans', sans-serif;
+  background-color: rgba(0, 0, 0, 0.05);
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav a {
+  color: white;
+  transition: 0.1s;
+  padding: 15px;
+  margin: 2px;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: none;
+}
+
+img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+nav a:hover {
+  border-style: solid;
+  border-width: thin;
+}
+
+.nav-container{
+  display: flex;
+  display: absolute;
+  justify-content: flex-end;
+  flex: 3;
+  margin-right: 45px;
+}
+
+.top {
+  box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.3);
+  background-color: black;
+  color: white;
+}
+
+#list-row{
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list-container{
+  display: flex;
+  box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.3);
+  width: 97%;
+}
+
+.list-score{
+  display: flex;
+  width: 150px;
+  min-width: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-image{
+  width: 150px;
+}
+
+.list-content{
+  flex: 1;
+  margin-left: 10px;
+}
